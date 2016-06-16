@@ -17,6 +17,7 @@ class SearchBar extends React.Component {
     onFormSubmit(event) {
         event.preventDefault();
         this.props.fetchWeather(this.state.term);
+        console.log("开始请求");
         this.setState({term: ''});
         
     }
