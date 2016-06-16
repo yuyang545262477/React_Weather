@@ -7,6 +7,7 @@ class APP extends React.Component {
         return (
             <div>
                 <SearchBar />
+                <WeatherList />
             </div>
         )
     }
